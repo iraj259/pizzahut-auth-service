@@ -12,12 +12,12 @@ export default defineConfig(
 
   },
 {
-    languageOptions:{
-        parserOptions:{
-            projectService:true,
-            tsconfigRootDir:import.meta.dirname,
-        }
-    },
+    // languageOptions:{
+    //     parserOptions:{
+    //         // projectService:true,
+    //         tsconfigRootDir:import.meta.dirname,
+    //     }
+    // },
     rules:{
         // 'no-console':'off'
 

@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
-    "moduleResolution": "NodeNext",
     "target": "ES2022",
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "strict": true,
-    "isolatedModules": true,
-    "skipLibCheck": true,
+    "types": ["node", "jest"],
     "esModuleInterop": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true
-  }
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src/**/*", "*.spec.ts"]
 }

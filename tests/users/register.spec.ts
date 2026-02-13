@@ -1,6 +1,29 @@
 import request from "supertest";
 import app from "../../src/app";
+import {AppDataSource} from '../../src/config/data-source'
+import { DataSource } from "typeorm";
+import { truncateTables } from "../utils";
+import { User } from "../../src/entity/User";
 describe("POST/auth/register", () => {
+    let connection :DataSource;
+
+    beforeAll(async()=>{
+        connection = await AppDataSource.initialize()
+    });
+
+// clean db before each test
+beforeEach(async()=>{
+    // db truncate
+    await truncateTables(connection)
+})
+
+// after db connection
+afterAll(async()=>{
+    await connection.destroy()
+})
+
+
+
   describe("given all fields", () => {
     it("should return the 201 status code", async () => {
       // arrange
@@ -40,8 +63,9 @@ describe("POST/auth/register", () => {
       // act
       await request(app).post("/auth/register").send(userData);
     //   assert
-    
-
+    const userRepository = connection.getRepository(User)
+    const users = await userRepository.find()
+    expect(users).toHaveLength(1)
   })
   describe("fields missing", () => {});
 });

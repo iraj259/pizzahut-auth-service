@@ -6,5 +6,6 @@ export default {
     '^.+\\.ts$': ['@swc/jest'],
   },
   moduleFileExtensions: ['ts', 'js', 'json', 'node'],
-  testMatch: ['**/*.spec.ts']
+  testMatch: ['**/*.spec.ts'],
+  verbose:true
 };

@@ -2,13 +2,14 @@ import express from 'express'
 import logger from './config/logger.ts'
 import { HttpError } from 'http-errors'
 import type { NextFunction, Request, Response } from 'express'; // types only
-
+import authRouter from './routes/auth.ts'
 const app = express()
 
 // if we make the function async the global error handler wont be able to catch it, the sol is to use next middleware but in v5 of express it handles this thing too
 app.get('/', (req, res,)=>{
     res.send('welcome to the auth service')
 })
+app.use('/auth', authRouter)
 
 // global error handler and should always be placed at last
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

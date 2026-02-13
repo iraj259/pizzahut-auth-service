@@ -40,6 +40,7 @@ describe("POST/auth/register", () => {
       // act
       await request(app).post("/auth/register").send(userData);
     //   assert
+    
 
   })
   describe("fields missing", () => {});

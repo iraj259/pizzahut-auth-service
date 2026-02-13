@@ -1,0 +1,47 @@
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:55:54.325Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:56:28.797Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:56:44.553Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:57:08.872Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:57:12.040Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:57:16.839Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:57:32.062Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:57:54.843Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:58:10.019Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:58:13.239Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:59:51.795Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T12:59:58.331Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:00:02.469Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:00:17.523Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:00:21.251Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:00:28.775Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:00:32.624Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:00:38.642Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:00:48.330Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:10:03.739Z"}
+{"level":"error","message":"access fail","serviceName":"auth-service","timestamp":"2026-02-12T13:10:13.314Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:10:50.472Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:11:07.954Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:11:20.666Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:11:35.232Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:11:57.640Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:12:02.514Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:12:13.946Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:12:15.252Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:12:20.522Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:12:27.024Z"}
+{"level":"error","message":"access fail","serviceName":"auth-service","timestamp":"2026-02-12T13:12:50.194Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:01.328Z"}
+{"level":"error","message":"access fail","serviceName":"auth-service","timestamp":"2026-02-12T13:13:04.628Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:23.201Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:25.112Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:32.733Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:35.423Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:41.184Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:54.907Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:13:56.847Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:14:01.372Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:14:03.151Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:14:05.931Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T13:14:44.723Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-12T18:10:10.535Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-13T10:58:19.360Z"}

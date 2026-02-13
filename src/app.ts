@@ -1,3 +1,4 @@
+import "reflect-metadata"
 import express from 'express'
 import logger from './config/logger.ts'
 import { HttpError } from 'http-errors'

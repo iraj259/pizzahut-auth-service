@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "The user management server",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev nodemon --watch src --ext ts,json --exec \"ts-node --esm src/server.ts\"",
-    "format:check": "prettier . --check",
+"dev": "cross-env NODE_ENV=dev nodemon --watch src --ext ts,json --exec ts-node src/server.ts",    "format:check": "prettier . --check",
     "format:fix": "prettier . --fix",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",

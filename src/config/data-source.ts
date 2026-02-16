@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
-import { User } from "../entity/User.ts";  // keep .ts
-import { Config } from "./index.ts";       // keep .ts
+import { User } from "../entity/User";  // keep .ts
+import { Config } from "./index";       // keep .ts
 
 // compute booleans outside object
 const NODE_ENV = Config.NODE_ENV ?? "dev";

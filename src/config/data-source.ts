@@ -3,9 +3,7 @@ import { DataSource } from "typeorm";
 import { User } from "../entity/User";  // keep .ts
 import { Config } from "./index";       // keep .ts
 
-// compute booleans outside object
-const NODE_ENV = Config.NODE_ENV ?? "dev";
-const isDevOrTest = NODE_ENV === "dev" || NODE_ENV === "test";
+
 
 // convert port to number beforehand
 const DB_PORT = Number(Config.DB_PORT);
@@ -17,7 +15,8 @@ export const AppDataSource = new DataSource({
     username: Config.DB_USERNAME,
     password: Config.DB_PASSWORD,
     database: Config.DB_NAME,
-    synchronize: isDevOrTest,
+    // don't use in prod alway keep false
+    synchronize: false,
     logging: false,
     entities: [User],
     migrations: [],

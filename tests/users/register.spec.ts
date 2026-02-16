@@ -2,8 +2,8 @@ import request from "supertest";
 import app from "../../src/app";
 import { AppDataSource } from "../../src/config/data-source";
 import { DataSource } from "typeorm";
-import { truncateTables } from "../utils";
 import { User } from "../../src/entity/User";
+import { Roles } from "../../src/contants";
 describe("POST/auth/register", () => {
   let connection: DataSource;
 
@@ -14,7 +14,8 @@ describe("POST/auth/register", () => {
   // clean db before each test
   beforeEach(async () => {
     // db truncate
-    await truncateTables(connection);
+    await connection.dropDatabase()
+    await connection.synchronize()
   });
 
   // after db connection
@@ -85,6 +86,22 @@ it("should return an id of the created user", async () => {
   expect(response.body).toHaveProperty("id");       // check ID exists
   expect(typeof response.body.id).toBe("number");   // check type
 });
+it("should assign a customer role", async()=>{
+   // arrange
+      const userData = {
+        firstName: "iraj",
+        lastName: "M",
+        email: "irajj.259@gmail.com",
+        password: "secret",
+      };
+      // act
+      await request(app).post("/auth/register").send(userData);
+         //   assert
+    const userRepository = connection.getRepository(User);
+    const users = await userRepository.find();
+    expect(users[0]).toHaveProperty('role')
+    expect(users[0].role).toBe(Roles.CUSTOMER);
+})
 
 
 

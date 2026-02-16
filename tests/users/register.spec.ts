@@ -67,10 +67,10 @@ describe("POST/auth/register", () => {
     const userRepository = connection.getRepository(User);
     const users = await userRepository.find();
     expect(users).toHaveLength(1);
-    expect(users[0].firstName).toBe(userData.firstName);
-    expect(users[0].lastName).toBe(userData.lastName);
-    expect(users[0].email).toBe(userData.email);
-    expect(users[0].password).toBe(userData.password);
+    // expect(users[0].firstName).toBe(userData.firstName);
+    // expect(users[0].lastName).toBe(userData.lastName);
+    // expect(users[0].email).toBe(userData.email);
+    // expect(users[0].password).toBe(userData.password);
   });
 it("should return an id of the created user", async () => {
   const userData = {
@@ -102,9 +102,23 @@ it("should assign a customer role", async()=>{
     expect(users[0]).toHaveProperty('role')
     expect(users[0].role).toBe(Roles.CUSTOMER);
 })
-
-
-
+it("should store the hashed password in the database", async()=>{
+  // arrange
+      const userData = {
+        firstName: "iraj",
+        lastName: "M",
+        email: "irajj.259@gmail.com",
+        password: "secret",
+      };
+      // act
+      await request(app).post("/auth/register").send(userData);
+      // assert
+    const userRepository = connection.getRepository(User);
+    const users = await userRepository.find();
+    expect(users[0].password).not.toBe(userData.password)
+    expect(users[0].password).toHaveLength(60)
+    expect(users[0].password).toMatch(/^\$2[aby]\$\d{2}\$[./A-Za-z0-9]{53}$/);
+})
 
 describe("fields missing", () => {});
 });

@@ -119,6 +119,24 @@ it("should store the hashed password in the database", async()=>{
     expect(users[0].password).toHaveLength(60)
     expect(users[0].password).toMatch(/^\$2[aby]\$\d{2}\$[./A-Za-z0-9]{53}$/);
 })
+it("should return 400 status code if email alr exists", async()=>{
+  // arrange
+      const userData = {
+        firstName: "iraj",
+        lastName: "M",
+        email: "irajj.259@gmail.com",
+        password: "secret",
+      };
+      const userRepository = connection.getRepository(User)
+      await userRepository.save({...userData, role:Roles.CUSTOMER})
+      // act
+     const response = await request(app).post("/auth/register").send(userData);
+     
+     const users = await userRepository.find()
+      // assert
+      expect(response.statusCode).toBe(400)
+      expect(users).toHaveLength(1)
+})
 
 describe("fields missing", () => {});
 });

@@ -138,5 +138,23 @@ it("should return 400 status code if email alr exists", async()=>{
       expect(users).toHaveLength(1)
 })
 
-describe("fields missing", () => {});
+describe("fields missing", () => {
+it("should return 400 status code if email is missing", async()=>{
+     // arrange
+      const userData = {
+        firstName: "iraj",
+        lastName: "M",
+        email: "",
+        password: "secret",
+      };
+      // act
+      const response = await request(app).post("/auth/register").send(userData);
+expect(response.statusCode).toBe(400)
+      const userRepository = connection.getRepository(User)
+      await userRepository.save({...userData, role:Roles.CUSTOMER})
+      const users = await userRepository.find()
+    //  assert
+    expect(users).toHaveLength(1)
+})
+});
 });

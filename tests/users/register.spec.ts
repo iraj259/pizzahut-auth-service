@@ -149,6 +149,7 @@ it("should return 400 status code if email is missing", async()=>{
       };
       // act
       const response = await request(app).post("/auth/register").send(userData);
+      // assert
 expect(response.statusCode).toBe(400)
       const userRepository = connection.getRepository(User)
       await userRepository.save({...userData, role:Roles.CUSTOMER})
@@ -157,4 +158,27 @@ expect(response.statusCode).toBe(400)
     expect(users).toHaveLength(1)
 })
 });
+
+
+
+describe("Fields are not in proper format",()=>{
+  it("should trim the email field", async()=>{
+        // arrange
+      const userData = {
+        firstName: "iraj",
+        lastName: "M",
+        email: " irajj.259@gmail.com ",
+        password: "secret",
+      };
+      // act
+      await request(app).post("/auth/register").send(userData);
+      // assert
+      const userRepository = connection.getRepository(User)
+      const users = await userRepository.find()
+      const user = users[0]
+
+
+      expect(user.email).toBe("irajj.259@gmail.com")
+  })
+})
 });

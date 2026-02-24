@@ -5,6 +5,7 @@ import { DataSource } from "typeorm";
 import { User } from "../../src/entity/User";
 import { Roles } from "../../src/contants";
 import { isJWT } from "../utils";
+import { RefreshToken } from "../../src/entity/RefreshToken";
 
 describe("POST/auth/register", () => {
   let connection: DataSource;
@@ -253,6 +254,25 @@ const cookies = (response.headers as unknown as Headers)['set-cookie'] || []
       const users = await userRepository.find();
       expect(users).toHaveLength(0);
     });
+    it("should store the refresh token in the db", async ()=>{
+      // arrange
+      const userData = {
+        firstName: "Iraj",
+        lastName: "M",
+        email: "irajj.259@gmail.com",
+        password: "secret123",
+      };
+      // act
+      const response = await request(app).post("/auth/register").send(userData);
+      // assert
+      const refreshTokenRepo = connection.getRepository(RefreshToken)
+      // const refreshTokens = await refreshTokenRepo.find()
+      // expect(refreshTokens).toHaveLength(1)
+
+      const token = await refreshTokenRepo.createQueryBuilder("refreshToken").where("refreshToken.userId=:userId", {userId:response.body.id}).getMany()
+      expect(token).toHaveLength(1)
+
+    })
   });
 
   describe("Fields are not in proper format", () => {

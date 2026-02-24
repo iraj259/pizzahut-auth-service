@@ -8,3 +8,4 @@ temp/
 .env.prod
 .env.dev
 .env.test
+certs/

@@ -20,7 +20,7 @@ export class AuthController {
             // validation
             const result = validationResult(req)
             if(!result.isEmpty()){
-                res.status(400).json({errors: result.array()})
+                return res.status(400).json({errors: result.array()})
             }
 //             if(!email){
 // const err = createHttpError(400, 'Email is required!')

@@ -78,3 +78,55 @@
 {"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:11:21.106Z"}
 {"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:11:21.118Z"}
 {"level":"error","message":"relation \"user\" does not exist","serviceName":"auth-service","timestamp":"2026-02-25T11:12:36.780Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:13:23.517Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:13:23.523Z"}
+{"id":1,"level":"info","message":"user has been registered","serviceName":"auth-service","timestamp":"2026-02-25T11:13:32.858Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-02-25T11:13:50.854Z"}
+{"id":2,"level":"info","message":"user has been registered","serviceName":"auth-service","timestamp":"2026-02-25T11:14:17.369Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:38:29.730Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:38:29.751Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:45:51.298Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:45:51.318Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:46:09.046Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:46:09.055Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:53:50.664Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:53:50.690Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:54:11.860Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:54:11.865Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:54:32.179Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:54:32.183Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:54:47.974Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:54:47.978Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:54:59.920Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:54:59.925Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:55:04.233Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:55:04.236Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:55:11.268Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:55:11.274Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:55:49.242Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:55:49.246Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:55:52.384Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:55:52.387Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:56:00.246Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:56:00.251Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:56:12.148Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:56:12.155Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:58:16.208Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:58:16.229Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:58:45.520Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:58:45.524Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:58:55.227Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:58:55.235Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:59:01.860Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:59:01.863Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T12:14:47.351Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T12:14:47.367Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T12:16:38.741Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T12:16:38.746Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T12:16:42.443Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T12:16:42.446Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T12:16:47.823Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T12:16:47.832Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T12:17:03.737Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T12:17:03.746Z"}
+{"id":1,"level":"info","message":"User has been logged in","serviceName":"auth-service","timestamp":"2026-02-25T12:17:20.844Z"}

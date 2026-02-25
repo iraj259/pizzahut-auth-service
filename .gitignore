@@ -9,3 +9,4 @@ temp/
 .env.dev
 .env.test
 certs/
+public/

@@ -8,6 +8,8 @@ import registerValidator from "../validators/register-validator";
 import loginValidator from "../validators/login-validator";
 import { CredentialService } from "../services/CredentialService";
 import { TokenService } from "../services/TokenService";
+import authenticate from "../middlewares/authenticate";
+import { AuthRequest } from "../types";
 
 const router = express.Router();
 
@@ -38,4 +40,10 @@ router.post(
         authController.login(req, res, next)
 );
 
+router.get(
+    "/self",
+    authenticate,
+    (req: Request, res: Response) =>
+        authController.self(req as AuthRequest, res)
+);
 export default router;

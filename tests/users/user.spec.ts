@@ -55,6 +55,43 @@ describe("GET /auth/self", () => {
     // check if user id matched with registered user
     expect(response.body.id).toBe(data.id)
    })
+
+   it("should not return the password field", async() => {
+  // register user
+     const userData = {
+        firstName: "iraj",
+        lastName: "M",
+        email: "irajj.259@gmail.com",
+        password: "secret123",
+      };
+    const userRepository = connection.getRepository(User)
+    const data = await userRepository.save({...userData, role:Roles.CUSTOMER})
+    // generate token
+    const accessToken = jwks.token({sub:String(data.id), role:data.role})
+    // add token to cookie
+    const response = await request(app).get("/auth/self").set("Cookie", [`accessToken=${accessToken};`]).send()
+    // assert
+    // check if user id matched with registered user
+  expect(response.body).not.toHaveProperty('password'); // <--- fixed
+   })
+
+it("should return 401 status code of token does not exist", async() => {
+  // register user
+     const userData = {
+        firstName: "iraj",
+        lastName: "M",
+        email: "irajj.259@gmail.com",
+        password: "secret123",
+      };
+    const userRepository = connection.getRepository(User)
+    await userRepository.save({...userData, role:Roles.CUSTOMER})
+    
+    // add token to cookie
+    const response = await request(app).get("/auth/self").send()
+    // assert
+    expect(response.statusCode).toBe(401)
+   })
+  
   });
 
  

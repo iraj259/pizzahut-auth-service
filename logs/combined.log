@@ -75,3 +75,6 @@
 {"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-23T17:47:59.336Z"}
 {"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-23T17:49:25.675Z"}
 {"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-23T17:49:43.441Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-25T11:11:21.106Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-25T11:11:21.118Z"}
+{"level":"error","message":"relation \"user\" does not exist","serviceName":"auth-service","timestamp":"2026-02-25T11:12:36.780Z"}

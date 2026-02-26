@@ -34,3 +34,4 @@
 {"level":"error","message":"invalid input syntax for type integer: \"NaN\"","serviceName":"auth-service","timestamp":"2026-02-26T15:08:36.548Z"}
 {"level":"error","message":"invalid input syntax for type integer: \"NaN\"","serviceName":"auth-service","timestamp":"2026-02-26T15:31:16.003Z"}
 {"level":"error","message":"invalid input syntax for type integer: \"NaN\"","serviceName":"auth-service","timestamp":"2026-02-26T15:31:22.879Z"}
+{"level":"error","message":"invalid input syntax for type integer: \"NaN\"","serviceName":"auth-service","timestamp":"2026-02-26T16:21:00.488Z"}

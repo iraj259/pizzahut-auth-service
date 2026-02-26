@@ -150,4 +150,17 @@ export class AuthController {
             next(err);
         }
     }
+
+    async logout(req: AuthRequest, res: Response, next: NextFunction){
+        try {
+            await this.tokenService.deleteRefreshToken(Number(req.auth.id))
+            this.logger.info("user has been logged out", {id:req.auth.sub})
+            res.clearCookie("accessToken")
+            res.clearCookie("refreshToken")
+            res.json({})
+        } catch (error) {
+            next(error)
+            return
+        }
+    }
 }

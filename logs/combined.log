@@ -362,3 +362,17 @@
 {"id":"25","level":"info","message":"Old refresh token deleted","serviceName":"auth-service","timestamp":"2026-02-26T15:57:11.152Z"}
 {"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-02-26T15:57:11.155Z"}
 {"id":1,"level":"info","message":"Access token refreshed successfully","serviceName":"auth-service","timestamp":"2026-02-26T15:57:11.156Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-26T16:18:53.241Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-26T16:18:53.248Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-26T16:19:06.701Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-26T16:19:06.705Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-26T16:19:24.807Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-26T16:19:24.813Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-02-26T16:20:56.866Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-02-26T16:20:56.869Z"}
+{"level":"error","message":"invalid input syntax for type integer: \"NaN\"","serviceName":"auth-service","timestamp":"2026-02-26T16:21:00.488Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-26T16:22:14.763Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-26T16:22:14.768Z"}
+{"id":"1","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-02-26T16:22:18.210Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-02-26T16:23:08.986Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-02-26T16:23:08.987Z"}

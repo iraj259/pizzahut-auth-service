@@ -354,3 +354,11 @@
 {"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-26T15:37:25.784Z"}
 {"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-26T15:37:25.788Z"}
 {"id":1,"level":"info","message":"User logged in","serviceName":"auth-service","timestamp":"2026-02-26T15:37:55.713Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-02-26T15:55:54.356Z"}
+{"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-02-26T15:55:54.361Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-02-26T15:57:04.623Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-02-26T15:57:04.625Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-02-26T15:57:08.123Z"}
+{"id":"25","level":"info","message":"Old refresh token deleted","serviceName":"auth-service","timestamp":"2026-02-26T15:57:11.152Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-02-26T15:57:11.155Z"}
+{"id":1,"level":"info","message":"Access token refreshed successfully","serviceName":"auth-service","timestamp":"2026-02-26T15:57:11.156Z"}

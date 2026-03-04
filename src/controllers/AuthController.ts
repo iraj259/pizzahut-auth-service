@@ -9,6 +9,7 @@ import createHttpError from "http-errors";
 import { CredentialService } from "../services/CredentialService";
 import { TokenService } from "../services/TokenService";
 import { CookieService } from "../services/CookieService";
+import { Roles } from "../contants";
 
 export class AuthController {
     private cookieService: CookieService;
@@ -39,6 +40,7 @@ export class AuthController {
                 lastName,
                 email,
                 password,
+                role:Roles.CUSTOMER
             });
 
             this.logger.info("User created in DB", { id: user.id });

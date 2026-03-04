@@ -91,9 +91,6 @@ it("should return 401 status code of token does not exist", async() => {
     // assert
     expect(response.statusCode).toBe(401)
    })
-  
-  });
 
- 
-  
+  });
 });

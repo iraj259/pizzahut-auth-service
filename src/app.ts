@@ -6,6 +6,7 @@ import { HttpError } from 'http-errors'
 import type { NextFunction, Request, Response } from 'express'; // types only
 import authRouter from './routes/auth'
 import tenantRouter from './routes/tenant'
+import userRouter from './routes/user'
 
 import fs from 'fs'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -31,6 +32,7 @@ app.get('/', (req, res,)=>{
 })
 app.use('/auth', authRouter)
 app.use('/tenant', tenantRouter)
+app.use('/user', userRouter)
 
 // global error handler and should always be placed at last
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

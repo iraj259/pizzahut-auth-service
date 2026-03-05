@@ -774,3 +774,7 @@
 {"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-03-05T15:12:46.170Z"}
 {"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-05T15:16:23.735Z"}
 {"level":"info","message":"port up on","port":"5555","serviceName":"auth-service","timestamp":"2026-03-05T15:16:23.749Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-05T17:57:38.781Z"}
+{"level":"info","message":"Server running on port 5555","serviceName":"auth-service","timestamp":"2026-03-05T17:57:38.787Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-05T17:58:16.910Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-05T17:58:16.917Z"}

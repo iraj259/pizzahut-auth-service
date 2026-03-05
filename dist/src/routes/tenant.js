@@ -1,0 +1,21 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const TenantController_1 = require("../controllers/TenantController");
+const TenantService_1 = require("../services/TenantService");
+const data_source_1 = require("../config/data-source");
+const Tenant_1 = require("../entity/Tenant");
+const logger_1 = __importDefault(require("../config/logger"));
+const authenticate_1 = __importDefault(require("../middlewares/authenticate"));
+const canAccess_1 = require("../middlewares/canAccess");
+const contants_1 = require("../contants");
+const tenant_validator_1 = __importDefault(require("../validators/tenant-validator"));
+const router = express_1.default.Router();
+const tenantRepository = data_source_1.AppDataSource.getRepository(Tenant_1.Tenant);
+const tenantService = new TenantService_1.TenantService(tenantRepository);
+const tenantController = new TenantController_1.TenantController(tenantService, logger_1.default);
+router.post("/", authenticate_1.default, (0, canAccess_1.canAccess)([contants_1.Roles.ADMIN]), tenant_validator_1.default, (req, res, next) => tenantController.create(req, res, next));
+exports.default = router;

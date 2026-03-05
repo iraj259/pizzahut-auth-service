@@ -1,0 +1,33 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const AuthController_1 = require("../controllers/AuthController");
+const UserService_1 = require("../services/UserService");
+const data_source_1 = require("../config/data-source");
+const User_1 = require("../entity/User");
+const logger_1 = __importDefault(require("../config/logger"));
+const register_validator_1 = __importDefault(require("../validators/register-validator"));
+const login_validator_1 = __importDefault(require("../validators/login-validator"));
+const CredentialService_1 = require("../services/CredentialService");
+const TokenService_1 = require("../services/TokenService");
+const authenticate_1 = __importDefault(require("../middlewares/authenticate"));
+const validateRefreshToken_1 = __importDefault(require("../middlewares/validateRefreshToken"));
+const RefreshToken_1 = require("../entity/RefreshToken");
+const parseRefreshToken_1 = __importDefault(require("../middlewares/parseRefreshToken"));
+const router = express_1.default.Router();
+const userRepository = data_source_1.AppDataSource.getRepository(User_1.User);
+const userService = new UserService_1.UserService(userRepository);
+const credentialService = new CredentialService_1.CredentialService();
+const refreshTokenRepository = data_source_1.AppDataSource.getRepository(RefreshToken_1.RefreshToken);
+const tokenService = new TokenService_1.TokenService(refreshTokenRepository);
+const authController = new AuthController_1.AuthController(userService, logger_1.default, credentialService, tokenService);
+// routes
+router.post("/register", register_validator_1.default, (req, res, next) => authController.register(req, res, next));
+router.post("/login", login_validator_1.default, (req, res, next) => authController.login(req, res, next));
+router.get("/self", authenticate_1.default, (req, res) => authController.self(req, res));
+router.post("/refresh", validateRefreshToken_1.default, (req, res, next) => authController.refresh(req, res, next));
+router.post("/logout", authenticate_1.default, parseRefreshToken_1.default, (req, res, next) => authController.logout(req, res, next));
+exports.default = router;

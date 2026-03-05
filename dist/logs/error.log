@@ -1,0 +1,2 @@
+{"error":{"message":"No metadata for \"User\" was found."},"level":"error","message":"Error during user login","serviceName":"auth-service","timestamp":"2026-03-05T19:48:57.593Z"}
+{"level":"error","message":"No metadata for \"User\" was found.","serviceName":"auth-service","timestamp":"2026-03-05T19:48:57.599Z"}

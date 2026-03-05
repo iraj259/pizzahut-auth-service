@@ -43,3 +43,18 @@ export interface CreateTenantRequest extends Request {
 export interface CreateUserRequest extends Request {
     body : UserData
 }
+export interface LimitedUserData {
+    firstName: string;
+    lastName: string;
+    role: string;
+}
+export interface UpdateUserRequest extends Request {
+    body: LimitedUserData
+}
+
+// export interface UserQueryParams {
+//     perPage: number
+//     currentPage: number
+//     q: string
+//     role: string
+// }

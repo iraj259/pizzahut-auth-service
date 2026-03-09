@@ -58,3 +58,9 @@ export interface UpdateUserRequest extends Request {
 //     q: string
 //     role: string
 // }
+
+export interface TenantQueryParams {
+    q: string;
+    perPage: number;
+    currentPage: number;
+}

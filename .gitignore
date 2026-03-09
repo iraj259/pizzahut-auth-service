@@ -10,3 +10,4 @@ temp/
 .env.test
 certs/
 public/
+dist

@@ -6,3 +6,5 @@
 {"level":"error","message":"No metadata for \"User\" was found.","serviceName":"auth-service","timestamp":"2026-03-05T19:48:57.599Z"}
 {"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-05T19:51:05.970Z"}
 {"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-05T19:51:05.973Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-09T11:39:57.498Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-09T11:39:57.502Z"}

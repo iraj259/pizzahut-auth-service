@@ -24,5 +24,30 @@ class TenantService {
             return yield this.tenantRepository.update(id, tenantData);
         });
     }
+    getAll(validatedQuery) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const queryBuilder = this.tenantRepository.createQueryBuilder("tenant");
+            if (validatedQuery.q) {
+                const searchTerm = `%${validatedQuery.q}%`;
+                queryBuilder.where("CONCAT(tenant.name, ' ', tenant.address) ILike :q", { q: searchTerm });
+            }
+            const result = yield queryBuilder
+                .skip((validatedQuery.currentPage - 1) * validatedQuery.perPage)
+                .take(validatedQuery.perPage)
+                .orderBy("tenant.id", "DESC")
+                .getManyAndCount();
+            return result;
+        });
+    }
+    getById(tenantId) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.tenantRepository.findOne({ where: { id: tenantId } });
+        });
+    }
+    deleteById(tenantId) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.tenantRepository.delete(tenantId);
+        });
+    }
 }
 exports.TenantService = TenantService;

@@ -66,5 +66,64 @@ class TenantController {
             }
         });
     }
+    getAll(req, res, next) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const validatedQuery = (0, express_validator_1.matchedData)(req, { onlyValidData: true });
+            try {
+                const [tenants, count] = yield this.tenantService.getAll(validatedQuery);
+                this.logger.info("All tenant have been fetched");
+                res.json({
+                    currentPage: validatedQuery.currentPage,
+                    perPage: validatedQuery.perPage,
+                    total: count,
+                    data: tenants,
+                });
+                res.json(tenants);
+            }
+            catch (err) {
+                next(err);
+            }
+        });
+    }
+    getOne(req, res, next) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const tenantId = req.params.id;
+            if (isNaN(Number(tenantId))) {
+                next((0, http_errors_1.default)(400, "Invalid url param."));
+                return;
+            }
+            try {
+                const tenant = yield this.tenantService.getById(Number(tenantId));
+                if (!tenant) {
+                    next((0, http_errors_1.default)(400, "Tenant does not exist."));
+                    return;
+                }
+                this.logger.info("Tenant has been fetched");
+                res.json(tenant);
+            }
+            catch (err) {
+                next(err);
+            }
+        });
+    }
+    destroy(req, res, next) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const tenantId = req.params.id;
+            if (isNaN(Number(tenantId))) {
+                next((0, http_errors_1.default)(400, "Invalid url param."));
+                return;
+            }
+            try {
+                yield this.tenantService.deleteById(Number(tenantId));
+                this.logger.info("Tenant has been deleted", {
+                    id: Number(tenantId),
+                });
+                res.json({ id: Number(tenantId) });
+            }
+            catch (err) {
+                next(err);
+            }
+        });
+    }
 }
 exports.TenantController = TenantController;

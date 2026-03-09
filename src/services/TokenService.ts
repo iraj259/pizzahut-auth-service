@@ -9,6 +9,7 @@ export class TokenService {
     constructor(private refreshTokenRepository: Repository<RefreshToken>) {}
 
     generateAccessToken(payload: JwtPayload) {
+        let privateKey: string;
         if(!Config.PRIVATE_KEY){
             throw createHttpError(500, "Private key is not set");
 

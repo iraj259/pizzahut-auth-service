@@ -1,8 +1,6 @@
 import { RefreshToken } from "../entity/RefreshToken";
 import { User } from "../entity/User";
 import { Repository } from "typeorm";
-import * as fs from "fs";
-import * as path from "path";
 import { sign, JwtPayload } from "jsonwebtoken"; // Fixed import for sign
 import { Config } from "../config";
 import createHttpError from "http-errors";
@@ -11,10 +9,14 @@ export class TokenService {
     constructor(private refreshTokenRepository: Repository<RefreshToken>) {}
 
     generateAccessToken(payload: JwtPayload) {
-        let privateKey: Buffer;
+        let privateKey: string;
+        if(!Config.PRIVATE_KEY){
+            throw createHttpError(500, "Private key is not set");
+
+        }
 
         try {
-            privateKey = fs.readFileSync(path.join(__dirname, "../../certs/private.pem"));
+            privateKey = Config.PRIVATE_KEY!;
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         } catch (err) {
             throw createHttpError(500, "Error while reading private key");

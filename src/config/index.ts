@@ -19,6 +19,7 @@ const {
   DB_PASSWORD,
   JWKS_URI,
   REFRESH_TOKEN_SECRET,
+  PRIVATE_KEY
 } = process.env;
 
 // Export as a single object
@@ -32,6 +33,7 @@ export const Config = {
   DB_PASSWORD: DB_PASSWORD || "root",
   REFRESH_TOKEN_SECRET: REFRESH_TOKEN_SECRET || "",
   JWKS_URI: JWKS_URI || "",
+  PRIVATE_KEY
 };
 
 // fail fast if secret is missing

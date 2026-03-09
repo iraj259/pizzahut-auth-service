@@ -7,5 +7,12 @@ export default {
   },
   moduleFileExtensions: ['ts', 'js', 'json', 'node'],
   testMatch: ['**/*.spec.ts'],
-  verbose:true
+  verbose:true,
+  collectCoverage:true,
+  coverageProvider:"v8",
+  collectCoverageFrom:[
+    "src/**/*.ts",
+    "!tests/**",
+    "!**/node_modules/"
+  ]
 };

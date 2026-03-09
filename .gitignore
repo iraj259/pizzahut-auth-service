@@ -11,3 +11,4 @@ temp/
 certs/
 public/
 dist
+coverage

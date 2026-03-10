@@ -12,12 +12,7 @@ describe('POST /tenant', () => {
 
     beforeAll(async () => {
         jwks = createJWKSMock('http://localhost:5555')
-        try {
-            connection = await AppDataSource.initialize()
-        } catch (err) {
-            console.error("Database initialization failed:", err)
-            throw err
-        }
+        connection = await AppDataSource.initialize()
     })
 
     beforeEach(async () => {

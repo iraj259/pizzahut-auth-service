@@ -7,12 +7,7 @@ describe("POST /auth/login", () => {
   let connection: DataSource;
 
   beforeAll(async () => {
-    try {
-      connection = await AppDataSource.initialize();
-    } catch (err) {
-      console.error("Database initialization failed:", err);
-      throw err;
-    }
+    connection = await AppDataSource.initialize();
   });
 
   beforeEach(async () => {

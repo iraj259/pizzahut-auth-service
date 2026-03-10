@@ -11,7 +11,12 @@ describe("POST/auth/register", () => {
   let connection: DataSource;
 
   beforeAll(async () => {
-    connection = await AppDataSource.initialize();
+    try {
+      connection = await AppDataSource.initialize();
+    } catch (err) {
+      console.error("Database initialization failed:", err);
+      throw err;
+    }
   });
 
   // clean db before each test

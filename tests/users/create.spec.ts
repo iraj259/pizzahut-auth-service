@@ -15,7 +15,12 @@ describe('User CRUD operations', () => {
 
     beforeAll(async () => {
         jwks = createJWKSMock('http://localhost:5555')
-        connection = await AppDataSource.initialize()
+        try {
+            connection = await AppDataSource.initialize()
+        } catch (err) {
+            console.error("Database initialization failed:", err)
+            throw err
+        }
     })
 
     beforeEach(async () => {

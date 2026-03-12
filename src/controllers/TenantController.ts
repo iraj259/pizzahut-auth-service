@@ -7,7 +7,7 @@ import createHttpError from "http-errors";
 export class TenantController{
     constructor(private tenantService:TenantService, private logger:Logger){}
     
-        async create(req:CreateTenantRequest, res:Response, next:NextFunction){
+    async create(req:CreateTenantRequest, res:Response, next:NextFunction){
               // Validation
         const result = validationResult(req);
         if (!result.isEmpty()) {
@@ -24,7 +24,7 @@ export class TenantController{
             }
         }
 
-         async update(req: CreateTenantRequest, res: Response, next: NextFunction) {
+    async update(req: CreateTenantRequest, res: Response, next: NextFunction) {
         // Validation
         const result = validationResult(req);
         if (!result.isEmpty()) {

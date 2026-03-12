@@ -23,16 +23,16 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">83.01% </span>
+                <span class="strong">75.4% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>44/53</span>
+                <span class='fraction'>46/61</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/13</span>
+                <span class='fraction'>0/12</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">83.01% </span>
+                <span class="strong">75.4% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>44/53</span>
+                <span class='fraction'>46/61</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -115,7 +115,15 @@
 <a name='L50'></a><a href='#L50'>50</a>
 <a name='L51'></a><a href='#L51'>51</a>
 <a name='L52'></a><a href='#L52'>52</a>
-<a name='L53'></a><a href='#L53'>53</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -128,20 +136,6 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -162,21 +156,45 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { config } from "dotenv";
-import fs from "fs";
 import path from "path";
+import fs from "fs";
 &nbsp;
+// MUST run immediately
 const env = process.env.NODE_ENV<span class="branch-0 cbranch-no" title="branch not covered" > || "dev";</span>
 &nbsp;
 config({
   path: path.join(__dirname, `../../.env.${env}`),
 });
 &nbsp;
+// pull variables after dotenv has run
 const {
   PORT,
   NODE_ENV,
@@ -187,14 +205,26 @@ const {
   DB_PASSWORD,
   JWKS_URI,
   REFRESH_TOKEN_SECRET,
-  PRIVATE_KEY: PRIVATE_KEY_PATH,
+  PRIVATE_KEY: ENV_PRIVATE_KEY,
+  PRIVATE_KEY_PATH,
 } = process.env;
 &nbsp;
-// Read the private key file content
-const PRIVATE_KEY = PRIVATE_KEY_PATH
-  ? fs.readFileSync(path.join(process.cwd(), PRIVATE_KEY_PATH), <span class="branch-0 cbranch-no" title="branch not covered" >"utf8")</span>
-<span class="cstat-no" title="statement not covered" >  : undefined;</span>
+let PRIVATE_KEY = ENV_PRIVATE_KEY;
 &nbsp;
+if (PRIVATE_KEY_PATH) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    const fullPath = path.isAbsolute(PRIVATE_KEY_PATH)</span>
+<span class="cstat-no" title="statement not covered" >      ? PRIVATE_KEY_PATH</span>
+<span class="cstat-no" title="statement not covered" >      : path.join(process.cwd(), PRIVATE_KEY_PATH);</span>
+<span class="cstat-no" title="statement not covered" >    if (fs.existsSync(fullPath)) {</span>
+<span class="cstat-no" title="statement not covered" >      PRIVATE_KEY = fs.readFileSync(fullPath, "utf8");</span>
+<span class="cstat-no" title="statement not covered" >    }</span>
+<span class="cstat-no" title="statement not covered" >  } catch (err) {</span>
+<span class="cstat-no" title="statement not covered" >    // fallback to ENV_PRIVATE_KEY if file read fails</span>
+<span class="cstat-no" title="statement not covered" >  }</span>
+<span class="cstat-no" title="statement not covered" >}</span>
+&nbsp;
+// Export as a single object
 export const Config = {
   PORT: Number(<span class="branch-0 cbranch-no" title="branch not covered" >PORT) || 5555,</span>
   NODE_ENV: <span class="branch-0 cbranch-no" title="branch not covered" >NODE_ENV || env,</span>
@@ -205,19 +235,13 @@ export const Config = {
   DB_PASSWORD: <span class="branch-0 cbranch-no" title="branch not covered" >DB_PASSWORD || "root",</span>
   REFRESH_TOKEN_SECRET: <span class="branch-0 cbranch-no" title="branch not covered" >REFRESH_TOKEN_SECRET || "",</span>
   JWKS_URI: <span class="branch-0 cbranch-no" title="branch not covered" >JWKS_URI || "",</span>
-  PRIVATE_KEY,
+  PRIVATE_KEY
 };
 &nbsp;
-// fail fast if secrets are missing
+// fail fast if secret is missing
 if (!Config.REFRESH_TOKEN_SECRET) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
 <span class="cstat-no" title="statement not covered" >  throw new Error(</span>
 <span class="cstat-no" title="statement not covered" >    "REFRESH_TOKEN_SECRET is missing from environment variables! Check your .env file."</span>
-<span class="cstat-no" title="statement not covered" >  );</span>
-<span class="cstat-no" title="statement not covered" >}</span>
-&nbsp;
-if (!Config.PRIVATE_KEY) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
-<span class="cstat-no" title="statement not covered" >  throw new Error(</span>
-<span class="cstat-no" title="statement not covered" >    "PRIVATE_KEY is missing or could not be read! Check your .env file and file path."</span>
 <span class="cstat-no" title="statement not covered" >  );</span>
 <span class="cstat-no" title="statement not covered" >}</span></pre></td></tr></table></pre>
 
@@ -226,7 +250,7 @@ if (!Config.PRIVATE_KEY) <span class="branch-0 cbranch-no" title="branch not cov
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-03-12T11:15:16.546Z
+                at 2026-03-12T12:24:58.900Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

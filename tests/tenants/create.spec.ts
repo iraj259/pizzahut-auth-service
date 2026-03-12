@@ -85,5 +85,24 @@ describe('POST /tenant', () => {
             expect(tenants[0].name).toBe(tenantData.name)
             expect(tenants[0].address).toBe(tenantData.address)
         })
+
+        it('should return 401 if user is not authenticated', async () => {
+            const tenantData = {
+                name: 'Tenant name',
+                address: 'Tenant address',
+            }
+
+           const response = await request(app)
+                .post('/tenant')
+                .send(tenantData)
+                expect(response.statusCode).toBe(401)
+
+            const tenantRepository = connection.getRepository(Tenant)
+            const tenants = await tenantRepository.find()
+            expect(tenants).toHaveLength(0)
+
+            // expect(tenants[0].name).toBe(tenantData.name)
+            // expect(tenants[0].address).toBe(tenantData.address)
+        })
     })
 })

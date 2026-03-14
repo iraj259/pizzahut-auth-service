@@ -1,6 +1,7 @@
 import { config } from "dotenv";
-import path from "path";
-import fs from "fs";
+import path from "node:path";
+import fs from "node:fs";
+
 
 // MUST run immediately
 const env = process.env.NODE_ENV || "dev";

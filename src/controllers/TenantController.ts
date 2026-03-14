@@ -68,8 +68,6 @@ export class TenantController{
                 total: count,
                 data: tenants,
             });
-
-            res.json(tenants);
         } catch (err) {
             next(err);
         }

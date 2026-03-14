@@ -10,5 +10,7 @@ temp/
 .env.test
 certs/
 public/
-dist
-coverage
+dist/
+coverage/
+*.log
+test_out*.txt

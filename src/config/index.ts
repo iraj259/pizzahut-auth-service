@@ -36,7 +36,7 @@ if (PRIVATE_KEY_PATH) {
     }
   } catch (err) {
     // fallback to ENV_PRIVATE_KEY if file read fails
-    console.log(err)
+    throw new Error(String(err));
   }
 }
 

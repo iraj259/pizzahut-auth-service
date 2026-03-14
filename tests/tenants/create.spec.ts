@@ -101,9 +101,6 @@ describe('POST /tenant', () => {
             const tenantRepository = connection.getRepository(Tenant)
             const tenants = await tenantRepository.find()
             expect(tenants).toHaveLength(0)
-
-            // expect(tenants[0].name).toBe(tenantData.name)
-            // expect(tenants[0].address).toBe(tenantData.address)
         })
          it("should return 403 if user is not an admin", async () => {
             const managerToken = jwks.token({

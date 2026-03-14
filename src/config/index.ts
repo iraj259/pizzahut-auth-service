@@ -1,5 +1,7 @@
 import { config } from "dotenv";
-import path from "path";
+import path from "node:path";
+import fs from "node:fs";
+
 
 // MUST run immediately
 const env = process.env.NODE_ENV || "dev";
@@ -19,8 +21,25 @@ const {
   DB_PASSWORD,
   JWKS_URI,
   REFRESH_TOKEN_SECRET,
-  PRIVATE_KEY
+  PRIVATE_KEY: ENV_PRIVATE_KEY,
+  PRIVATE_KEY_PATH,
 } = process.env;
+
+let PRIVATE_KEY = ENV_PRIVATE_KEY;
+
+if (PRIVATE_KEY_PATH) {
+  try {
+    const fullPath = path.isAbsolute(PRIVATE_KEY_PATH)
+      ? PRIVATE_KEY_PATH
+      : path.join(process.cwd(), PRIVATE_KEY_PATH);
+    if (fs.existsSync(fullPath)) {
+      PRIVATE_KEY = fs.readFileSync(fullPath, "utf8");
+    }
+  } catch (err) {
+    // fallback to ENV_PRIVATE_KEY if file read fails
+    throw new Error(String(err));
+  }
+}
 
 // Export as a single object
 export const Config = {

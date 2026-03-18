@@ -7,13 +7,17 @@ import type { NextFunction, Request, Response } from 'express'; // types only
 import authRouter from './routes/auth'
 import tenantRouter from './routes/tenant'
 import userRouter from './routes/user'
-
+import cors from 'cors'
 import fs from 'fs'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import rsaPemToJwk from 'rsa-pem-to-jwk'
 
 const app = express()
+app.use(cors({
+    origin:process.env.FRONTEND_URL,
+    credentials:true
+}))
 app.use(express.static("public"))
 app.use(cookieParser())
 app.use(express.json())

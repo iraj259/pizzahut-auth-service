@@ -19,15 +19,14 @@ export class UserService {
 
         
         try {
-            const user = await this.userRepository.save({
+            return await this.userRepository.save({
             firstName,
             lastName,
             email,
             password:hashedPassword,
             role,
-            tenantId:tenantId?{id:tenantId} :undefined
+            tenant:tenantId?{id:tenantId} :undefined
         })
-            return await this.userRepository.save(user);
         } catch (err) {
             const error = createHttpError(500, 'failed to store the data')
             throw error
@@ -60,6 +59,9 @@ export class UserService {
         return await this.userRepository.findOne({
             where:{
                 id
+            },
+            relations:{
+                tenant:true
             }
         })
     }

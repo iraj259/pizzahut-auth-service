@@ -36,3 +36,32 @@
 {"level":"error","message":"invalid input syntax for type integer: \"NaN\"","serviceName":"auth-service","timestamp":"2026-02-26T15:31:22.879Z"}
 {"level":"error","message":"invalid input syntax for type integer: \"NaN\"","serviceName":"auth-service","timestamp":"2026-02-26T16:21:00.488Z"}
 {"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-05T19:51:13.343Z"}
+{"error":{},"level":"error","message":"Error during user login","serviceName":"auth-service","timestamp":"2026-03-18T23:06:05.722Z"}
+{"level":"error","message":"secretOrPrivateKey must be an asymmetric key when using RS256","serviceName":"auth-service","timestamp":"2026-03-18T23:06:05.724Z"}
+{"error":{},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-18T23:11:00.029Z"}
+{"level":"error","message":"secretOrPrivateKey must be an asymmetric key when using RS256","serviceName":"auth-service","timestamp":"2026-03-18T23:11:00.029Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T11:43:46.895Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T12:20:31.016Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T12:21:04.730Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T12:21:11.518Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:21:41.594Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:21:41.595Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:21:50.827Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:21:50.828Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:21:55.316Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:21:55.316Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:27:49.343Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:27:49.356Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-25T12:56:55.876Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-25T17:12:16.700Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-25T18:25:46.192Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:43:39.423Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:56:23.405Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:56:23.490Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:06.037Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:06.078Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:08.815Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:08.825Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-26T10:58:16.344Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:59:37.054Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:59:37.068Z"}

@@ -816,3 +816,311 @@
 {"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-12T12:10:51.623Z"}
 {"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-18T22:17:29.070Z"}
 {"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-18T22:17:29.075Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-18T23:06:02.740Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-18T23:06:02.744Z"}
+{"error":{},"level":"error","message":"Error during user login","serviceName":"auth-service","timestamp":"2026-03-18T23:06:05.721Z"}
+{"level":"error","message":"secretOrPrivateKey must be an asymmetric key when using RS256","serviceName":"auth-service","timestamp":"2026-03-18T23:06:05.724Z"}
+{"id":2,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-18T23:11:00.027Z"}
+{"error":{},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-18T23:11:00.029Z"}
+{"level":"error","message":"secretOrPrivateKey must be an asymmetric key when using RS256","serviceName":"auth-service","timestamp":"2026-03-18T23:11:00.029Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-18T23:11:58.014Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-18T23:11:58.021Z"}
+{"id":3,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-18T23:12:24.628Z"}
+{"id":"3","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-18T23:12:24.664Z"}
+{"id":3,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-18T23:12:24.666Z"}
+{"id":"3","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-18T23:12:33.399Z"}
+{"id":3,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-18T23:12:33.400Z"}
+{"id":"3","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-18T23:13:11.913Z"}
+{"id":3,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-18T23:13:11.914Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-18T23:13:45.112Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-18T23:13:45.113Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-24T11:26:16.502Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-24T11:26:16.531Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T11:43:46.892Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T11:44:35.531Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T11:44:35.556Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T11:44:36.441Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T11:45:06.703Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T11:45:06.707Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T11:45:06.725Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T11:45:48.113Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T11:45:48.115Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T11:45:48.136Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:02:54.814Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:02:54.834Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:02:54.919Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:04:33.521Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:04:33.528Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:04:33.560Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:09:35.486Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:09:35.497Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:09:35.527Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:10:19.123Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:10:19.125Z"}
+{"id":"1","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:10:19.156Z"}
+{"id":4,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-24T12:18:45.510Z"}
+{"id":"4","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:18:45.563Z"}
+{"id":4,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:18:45.564Z"}
+{"id":5,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-24T12:18:57.469Z"}
+{"id":"5","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:18:57.496Z"}
+{"id":5,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:18:57.497Z"}
+{"id":6,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-24T12:19:08.583Z"}
+{"id":"6","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:19:08.620Z"}
+{"id":6,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:19:08.620Z"}
+{"id":"4","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:19:21.553Z"}
+{"id":4,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:19:21.554Z"}
+{"id":"4","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:19:21.629Z"}
+{"id":"6","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:19:33.297Z"}
+{"id":6,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:19:33.299Z"}
+{"id":"6","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:19:33.335Z"}
+{"id":"5","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:19:42.003Z"}
+{"id":5,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:19:42.005Z"}
+{"id":"5","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:19:42.015Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T12:20:31.016Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T12:21:04.730Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-24T12:21:11.518Z"}
+{"id":"4","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:21:20.946Z"}
+{"id":4,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:21:20.948Z"}
+{"id":"4","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:21:20.968Z"}
+{"id":"5","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:21:31.123Z"}
+{"id":5,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:21:31.125Z"}
+{"id":"5","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:21:31.141Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:21:41.594Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:21:41.595Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:21:50.827Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:21:50.828Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:21:55.316Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:21:55.316Z"}
+{"id":"4","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:22:12.415Z"}
+{"id":4,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:22:12.417Z"}
+{"id":"4","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:22:12.429Z"}
+{"id":"4","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:25:35.955Z"}
+{"id":4,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:25:35.965Z"}
+{"id":"4","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:25:36.478Z"}
+{"error":{"message":"email alr exists"},"level":"error","message":"Error during user registration","serviceName":"auth-service","timestamp":"2026-03-24T12:27:49.337Z"}
+{"level":"error","message":"email alr exists","serviceName":"auth-service","timestamp":"2026-03-24T12:27:49.356Z"}
+{"id":7,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-24T12:27:57.035Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:27:57.089Z"}
+{"id":7,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:27:57.090Z"}
+{"id":8,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-24T12:28:13.855Z"}
+{"id":"8","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:28:13.870Z"}
+{"id":8,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:28:13.871Z"}
+{"id":9,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-24T12:28:31.420Z"}
+{"id":"9","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:28:31.433Z"}
+{"id":9,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:28:31.434Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:28:54.999Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:28:55.001Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:28:55.044Z"}
+{"id":"8","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:29:05.296Z"}
+{"id":8,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:29:05.297Z"}
+{"id":"8","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:29:05.310Z"}
+{"id":"9","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:29:14.207Z"}
+{"id":9,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:29:14.208Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:29:14.242Z"}
+{"id":"9","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:30:43.784Z"}
+{"id":9,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:30:43.792Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:30:44.014Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:38:07.861Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-24T12:38:07.877Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:38:15.358Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-24T12:38:15.361Z"}
+{"id":"9","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:39:30.063Z"}
+{"id":9,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:39:30.076Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:39:30.146Z"}
+{"id":"9","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:40:49.733Z"}
+{"id":9,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:40:49.749Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:40:49.853Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:47:47.543Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:47:47.557Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:47:47.669Z"}
+{"id":"8","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:47:56.316Z"}
+{"id":8,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:47:56.319Z"}
+{"id":"8","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:47:56.333Z"}
+{"id":"8","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T12:51:14.225Z"}
+{"id":8,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T12:51:14.243Z"}
+{"id":"8","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T12:51:14.334Z"}
+{"id":"8","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-24T12:51:14.429Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T13:01:25.626Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T13:01:25.633Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T13:01:25.714Z"}
+{"id":"8","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T13:01:36.410Z"}
+{"id":8,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T13:01:36.412Z"}
+{"id":"8","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T13:01:36.430Z"}
+{"id":"8","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-24T13:01:36.458Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T13:07:52.387Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T13:07:52.397Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T13:07:52.419Z"}
+{"id":"8","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-24T13:07:58.368Z"}
+{"id":8,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-24T13:07:58.370Z"}
+{"id":"8","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-24T13:07:58.392Z"}
+{"id":"8","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-24T13:07:58.415Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-25T11:46:51.125Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-25T11:46:51.132Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-25T11:54:14.836Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-25T11:54:14.854Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T11:54:14.935Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T12:23:31.779Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T12:23:34.648Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T12:23:35.589Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T12:23:41.349Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T12:23:43.354Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T12:23:51.911Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-25T12:56:55.860Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-25T17:12:16.694Z"}
+{"id":"40","level":"info","message":"Old refresh token deleted","serviceName":"auth-service","timestamp":"2026-03-25T17:12:17.320Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-25T17:12:17.326Z"}
+{"id":7,"level":"info","message":"Access token refreshed successfully","serviceName":"auth-service","timestamp":"2026-03-25T17:12:17.330Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:12:17.399Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:12:36.047Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:13:09.717Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:13:11.859Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:14:18.811Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:18:40.290Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:20:10.489Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:20:13.039Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:21:01.959Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:21:04.488Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:23:26.284Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:25:02.561Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:27:51.452Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:27:54.338Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:28:10.678Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:28:24.130Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:28:26.037Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:28:42.694Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:28:43.031Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:39:13.643Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:39:23.745Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:39:26.773Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:39:29.082Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:40:18.179Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:41:06.606Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:43:33.475Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:44:56.063Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:46:40.265Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:46:49.875Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T17:46:51.874Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-25T18:25:46.166Z"}
+{"id":"41","level":"info","message":"Old refresh token deleted","serviceName":"auth-service","timestamp":"2026-03-25T18:25:48.094Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-25T18:25:48.104Z"}
+{"id":7,"level":"info","message":"Access token refreshed successfully","serviceName":"auth-service","timestamp":"2026-03-25T18:25:48.107Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-25T18:25:48.177Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-26T10:43:34.136Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-26T10:43:34.144Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:43:39.423Z"}
+{"id":"42","level":"info","message":"Old refresh token deleted","serviceName":"auth-service","timestamp":"2026-03-26T10:43:40.690Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T10:43:40.696Z"}
+{"id":7,"level":"info","message":"Access token refreshed successfully","serviceName":"auth-service","timestamp":"2026-03-26T10:43:40.698Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T10:43:40.741Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T10:47:45.797Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T10:48:19.740Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T10:56:16.228Z"}
+{"id":"7","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T10:56:20.419Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:56:23.404Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:56:23.490Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T10:56:36.677Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T10:56:36.681Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T10:56:36.704Z"}
+{"id":"7","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T10:56:42.689Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:06.037Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:06.078Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:08.815Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:58:08.825Z"}
+{"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-26T10:58:16.344Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T10:58:21.842Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T10:58:21.843Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T10:58:21.857Z"}
+{"id":"7","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T10:58:26.416Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:59:37.054Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:59:37.068Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T10:59:44.716Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T10:59:44.718Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T10:59:44.731Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:01:02.683Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:03:32.443Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-26T11:03:32.477Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:04:07.980Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:04:09.192Z"}
+{"id":"7","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T11:04:12.781Z"}
+{"id":"9","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:04:23.849Z"}
+{"id":9,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:04:23.851Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:04:23.868Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:04:44.645Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:05:58.781Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:05:59.640Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:00.882Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:09.912Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:10.552Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:11.894Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:16.276Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:17.553Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:19.126Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:28.471Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:29.496Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:31.072Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:32.935Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:34.230Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:37.063Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:38.504Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:40.163Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:41.830Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:42.423Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:43.841Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:48.592Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:49.479Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:50.722Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:52.804Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:53.519Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:06:54.729Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:12:36.894Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:13:26.603Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:13:29.018Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:13:55.672Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:13:58.207Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:14:06.657Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:15:19.329Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:15:21.517Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:15:49.362Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:16:13.568Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:16:17.330Z"}
+{"id":"9","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:16:30.108Z"}
+{"id":"9","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T11:16:36.287Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:16:42.821Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:16:42.823Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:16:42.850Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:17:06.653Z"}
+{"id":10,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-26T11:19:07.460Z"}
+{"id":"10","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:19:07.489Z"}
+{"id":10,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:19:07.491Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:19:12.478Z"}
+{"id":"7","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T11:19:15.327Z"}
+{"id":"10","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:19:27.401Z"}
+{"id":10,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:19:27.402Z"}
+{"id":"10","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:19:27.425Z"}
+{"id":"10","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:20:18.519Z"}
+{"id":"10","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:21:53.731Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:22:07.648Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-26T11:22:07.690Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:22:18.262Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-26T11:22:18.267Z"}
+{"id":"10","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:22:18.465Z"}
+{"id":"10","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:22:39.506Z"}
+{"id":"10","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T11:22:42.894Z"}
+{"id":"10","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:22:58.569Z"}
+{"id":10,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:22:58.572Z"}
+{"id":"10","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:22:58.591Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:23:53.599Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-26T11:23:53.603Z"}
+{"id":"10","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:25:07.472Z"}
+{"id":"1","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:25:44.489Z"}
+{"id":1,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:25:44.490Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:25:56.423Z"}
+{"id":7,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:25:56.423Z"}
+{"id":1,"level":"info","message":"Tenant has been created","serviceName":"auth-service","timestamp":"2026-03-26T11:27:44.240Z"}
+{"id":11,"level":"info","message":"User created in DB","serviceName":"auth-service","timestamp":"2026-03-26T11:28:04.894Z"}
+{"id":"11","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:28:04.907Z"}
+{"id":11,"level":"info","message":"User registered successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:28:04.908Z"}
+{"id":"10","level":"info","message":"user has been logged out","serviceName":"auth-service","timestamp":"2026-03-26T11:28:12.429Z"}
+{"id":"11","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-03-26T11:28:23.418Z"}
+{"id":11,"level":"info","message":"User logged in successfully","serviceName":"auth-service","timestamp":"2026-03-26T11:28:23.419Z"}
+{"id":"11","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-26T11:28:23.439Z"}

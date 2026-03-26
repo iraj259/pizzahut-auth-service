@@ -65,3 +65,44 @@
 {"level":"error","message":"Email or password does not match","serviceName":"auth-service","timestamp":"2026-03-26T10:58:16.344Z"}
 {"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:59:37.054Z"}
 {"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T10:59:37.068Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T12:28:40.506Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:33:44.371Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:33:47.600Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:33:50.984Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:33:52.025Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:33:54.048Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:33:58.077Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:34:16.502Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:35:47.394Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:35:49.422Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:35:53.439Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:35:56.559Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:35:59.118Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:36:00.142Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:36:02.172Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T12:36:06.186Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T14:29:25.835Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-26T14:58:13.792Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:58:17.846Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:59:31.880Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:59:32.900Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:59:34.966Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:59:38.989Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:59:55.409Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:59:56.474Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T14:59:58.499Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:02.522Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:27.117Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:30.465Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:31.492Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:33.522Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:37.548Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:40.666Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:46.210Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:48.233Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:00:52.325Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:02:27.452Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:02:28.515Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:02:30.533Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:02:34.561Z"}
+{"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:06:28.972Z"}

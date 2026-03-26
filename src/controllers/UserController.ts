@@ -6,7 +6,17 @@ import { validationResult } from "express-validator";
 import { Logger } from "winston";
 export class UserController {
     constructor(private userService: UserService,
-        private logger: Logger,) {}
+        private logger: Logger,) { }
+
+    async index(req: Request, res: Response, next: NextFunction) {
+        try {
+            const users = await this.userService.getAll();
+            this.logger.info("All users fetched");
+            res.json(users);
+        } catch (error) {
+            next(error);
+        }
+    }
 
     async create(req: CreateUserRequest, res: Response, next: NextFunction) {
         const { firstName, lastName, email, password, tenantId, role } = req.body;
@@ -42,7 +52,7 @@ export class UserController {
             next(err);
         }
     }
-      async update(req: UpdateUserRequest, res: Response, next: NextFunction) {
+    async update(req: UpdateUserRequest, res: Response, next: NextFunction) {
         // In our project: We are not allowing user to change the email id since it is used as username
         // In our project: We are not allowing admin user to change others password
 

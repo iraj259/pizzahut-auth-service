@@ -1,4 +1,4 @@
-import express, { NextFunction, Response } from 'express'
+import express, { NextFunction, Request, Response } from 'express'
 import authenticate from '../middlewares/authenticate'
 import { canAccess } from '../middlewares/canAccess'
 import { Roles } from '../contants'
@@ -16,6 +16,13 @@ const router = express.Router()
 const userRepository = AppDataSource.getRepository(User)
 const userService = new UserService(userRepository)
 const userController = new UserController(userService, logger)
+router.get(
+    "/",
+    authenticate,
+    canAccess([Roles.ADMIN]),
+    (req: Request, res: Response, next: NextFunction) =>
+        userController.index(req, res, next),
+);
 router.post(
     "/",
     authenticate,

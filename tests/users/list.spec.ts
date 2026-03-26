@@ -68,7 +68,7 @@ describe("GET /user", () => {
             const accessToken = jwks.token({ sub: '1', role: Roles.ADMIN })
             const response = await request(app).get("/user").set("Cookie", [`accessToken=${accessToken}`]).send()
             
-            response.body.forEach((user: any) => {
+            response.body.forEach((user: User) => {
                 expect(user).not.toHaveProperty('password')
             })
         })

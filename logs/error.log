@@ -106,3 +106,14 @@
 {"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:02:30.533Z"}
 {"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:02:34.561Z"}
 {"level":"error","message":" You don't have enough permissions","serviceName":"auth-service","timestamp":"2026-03-26T15:06:28.972Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T10:30:01.130Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T11:39:22.486Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T11:39:22.502Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T11:39:22.530Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T13:44:40.049Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T13:44:40.084Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T14:55:37.498Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T14:55:37.544Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T14:55:37.566Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T14:55:38.267Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-03-28T16:10:22.280Z"}

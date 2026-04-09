@@ -1508,3 +1508,24 @@
 {"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-03-28T16:43:36.074Z"}
 {"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-03-28T22:19:57.726Z"}
 {"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-03-28T22:19:57.772Z"}
+{"level":"info","message":"Database connected successfully","serviceName":"auth-service","timestamp":"2026-04-09T11:59:07.240Z"}
+{"level":"info","message":"port up on","port":5555,"serviceName":"auth-service","timestamp":"2026-04-09T11:59:07.258Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-04-09T11:59:31.972Z"}
+{"id":"69","level":"info","message":"Old refresh token deleted","serviceName":"auth-service","timestamp":"2026-04-09T11:59:32.524Z"}
+{"id":"7","level":"info","message":"Access and refresh tokens set in cookies","serviceName":"auth-service","timestamp":"2026-04-09T11:59:32.527Z"}
+{"id":7,"level":"info","message":"Access token refreshed successfully","serviceName":"auth-service","timestamp":"2026-04-09T11:59:32.529Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-04-09T11:59:32.575Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T11:59:37.018Z"}
+{"level":"info","message":"All tenant have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T11:59:37.039Z"}
+{"id":"7","level":"info","message":"Fetched self info","serviceName":"auth-service","timestamp":"2026-04-09T12:01:18.219Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:18.446Z"}
+{"level":"info","message":"All tenant have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:18.472Z"}
+{"level":"info","message":"All tenant have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:20.595Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:20.598Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:23.121Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:23.254Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:23.500Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:23.709Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:30.949Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:33.520Z"}
+{"level":"info","message":"All users have been fetched","serviceName":"auth-service","timestamp":"2026-04-09T12:01:36.197Z"}

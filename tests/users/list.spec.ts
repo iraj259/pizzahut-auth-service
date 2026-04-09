@@ -50,8 +50,11 @@ describe("GET /user", () => {
             const accessToken = jwks.token({ sub: '1', role: Roles.ADMIN })
             const response = await request(app).get("/user").set("Cookie", [`accessToken=${accessToken}`]).send()
             
-            expect(response.body).toBeInstanceOf(Array)
-            expect(response.body.length).toBeGreaterThan(0)
+            expect(response.body.data).toBeInstanceOf(Array)
+            expect(response.body.data.length).toBeGreaterThan(0)
+            expect(response.body).toHaveProperty('currentPage')
+            expect(response.body).toHaveProperty('perPage')
+            expect(response.body).toHaveProperty('total')
         })
 
         it("should not return the password field in the user list", async () => {
@@ -68,7 +71,7 @@ describe("GET /user", () => {
             const accessToken = jwks.token({ sub: '1', role: Roles.ADMIN })
             const response = await request(app).get("/user").set("Cookie", [`accessToken=${accessToken}`]).send()
             
-            response.body.forEach((user: User) => {
+            response.body.data.forEach((user: User) => {
                 expect(user).not.toHaveProperty('password')
             })
         })

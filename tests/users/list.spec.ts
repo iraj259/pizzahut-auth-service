@@ -112,6 +112,62 @@ describe("GET /user", () => {
         expect(res.statusCode).toBe(403);
     });
 
+    it("should return filtered users based on search term", async () => {
+        const userRepository = connection.getRepository(User);
+        await userRepository.save([
+            {
+                firstName: "John",
+                lastName: "Doe",
+                email: "john@example.com",
+                password: "password123",
+                role: Roles.CUSTOMER,
+            },
+            {
+                firstName: "Jane",
+                lastName: "Smith",
+                email: "jane@example.com",
+                password: "password123",
+                role: Roles.CUSTOMER,
+            },
+        ]);
+
+        const token = createAdminToken();
+        const res = await request(app)
+            .get("/user?q=John")
+            .set("Cookie", [`accessToken=${token}`]);
+
+        expect(res.body.data).toHaveLength(1);
+        expect(res.body.data[0].firstName).toBe("John");
+    });
+
+    it("should filter users by role", async () => {
+        const userRepository = connection.getRepository(User);
+        await userRepository.save([
+            {
+                firstName: "John",
+                lastName: "Doe",
+                email: "john@example.com",
+                password: "password123",
+                role: Roles.CUSTOMER,
+            },
+            {
+                firstName: "Jane",
+                lastName: "Smith",
+                email: "jane@example.com",
+                password: "password123",
+                role: Roles.MANAGER,
+            },
+        ]);
+
+        const token = createAdminToken();
+        const res = await request(app)
+            .get(`/user?role=${Roles.MANAGER}`)
+            .set("Cookie", [`accessToken=${token}`]);
+
+        expect(res.body.data).toHaveLength(1);
+        expect(res.body.data[0].role).toBe(Roles.MANAGER);
+    });
+
     it("should return 401 when no token provided", async () => {
         const res = await request(app).get("/user");
 

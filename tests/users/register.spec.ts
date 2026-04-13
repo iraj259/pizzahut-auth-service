@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll, beforeEach, afterEach, afterAll } from "@jest/globals";
+import { describe, it, expect, beforeAll, beforeEach, afterAll } from "@jest/globals";
 import request from "supertest";
 import app from "../../src/app";
 import { AppDataSource } from "../../src/config/data-source";

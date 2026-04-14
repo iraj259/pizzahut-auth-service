@@ -123,3 +123,7 @@
 {"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-04-09T15:55:22.265Z"}
 {"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-04-09T15:55:23.558Z"}
 {"level":"error","message":"The token has been revoked.","serviceName":"auth-service","timestamp":"2026-04-09T15:55:23.603Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-04-14T12:01:44.383Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-04-14T13:59:18.931Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-04-14T13:59:19.036Z"}
+{"level":"error","message":"No authorization token was found","serviceName":"auth-service","timestamp":"2026-04-14T13:59:19.042Z"}

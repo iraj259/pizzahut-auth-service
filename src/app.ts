@@ -13,6 +13,8 @@ import fs from 'fs'
 // @ts-ignore
 import rsaPemToJwk from 'rsa-pem-to-jwk'
 
+import { globalErrorHandler } from './middlewares/globalErrorHandler'
+
 const app = express()
 app.use(cors({
     origin:process.env.FRONTEND_URL,
@@ -39,20 +41,6 @@ app.use('/tenant', tenantRouter)
 app.use('/user', userRouter)
 
 // global error handler and should always be placed at last
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-app.use((err:HttpError,req:Request,res:Response,next:NextFunction)=>{
-    logger.error(err.message)
-    const statusCode = err.statusCode || err.status || 500
-    res.status(statusCode).json({
-        errors:[
-            {
-                type:err.name,
-                msg:err.message,
-                path:'',
-                location:'',
-            }
-        ]
-    })
-})
+app.use(globalErrorHandler)
 
 export default app

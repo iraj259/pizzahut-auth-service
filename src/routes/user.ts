@@ -1,4 +1,4 @@
-import express, { NextFunction, Response } from 'express'
+import express, { NextFunction, Request, Response } from 'express'
 import authenticate from '../middlewares/authenticate'
 import { canAccess } from '../middlewares/canAccess'
 import { Roles } from '../contants'
@@ -10,12 +10,23 @@ import createUserValidator from '../validators/create-user-validator'
 import { CreateUserRequest, UpdateUserRequest } from '../types'
 import updateUserValidator from '../validators/update-user-validator'
 import logger from '../config/logger'
+import listUsersValidator from '../validators/list-users-validator'
+
 
 const router = express.Router()
 
 const userRepository = AppDataSource.getRepository(User)
 const userService = new UserService(userRepository)
 const userController = new UserController(userService, logger)
+router.get(
+    "/",
+    authenticate,
+    canAccess([Roles.ADMIN]),
+    listUsersValidator,
+    (req: Request, res: Response, next: NextFunction) =>
+        userController.getAll(req, res, next),
+);
+
 router.post(
     "/",
     authenticate,

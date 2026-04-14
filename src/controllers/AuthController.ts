@@ -33,14 +33,15 @@ export class AuthController {
             if (!errors.isEmpty())
                 return res.status(400).json({ errors: errors.array() });
 
-            const { firstName, lastName, email, password } = req.body;
+            const { firstName, lastName, email, password, role, tenantId } = req.body;
 
             const user = await this.userService.create({
                 firstName,
                 lastName,
                 email,
                 password,
-                role:Roles.CUSTOMER
+                role: (role?.toLowerCase() as string) || Roles.CUSTOMER,
+                tenantId
             });
 
             this.logger.info("User created in DB", { id: user.id });

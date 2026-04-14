@@ -1,12 +1,13 @@
 import { Request, Response, NextFunction } from "express";
 import { UserService } from "../services/UserService";
-import { CreateUserRequest, UpdateUserRequest } from "../types";
+import { CreateUserRequest, UpdateUserRequest, UserQueryParams } from "../types";
 import createHttpError from "http-errors";
-import { validationResult } from "express-validator";
+import { matchedData, validationResult } from "express-validator";
 import { Logger } from "winston";
 export class UserController {
     constructor(private userService: UserService,
-        private logger: Logger,) {}
+        private logger: Logger,) { }
+
 
     async create(req: CreateUserRequest, res: Response, next: NextFunction) {
         const { firstName, lastName, email, password, tenantId, role } = req.body;
@@ -42,7 +43,7 @@ export class UserController {
             next(err);
         }
     }
-      async update(req: UpdateUserRequest, res: Response, next: NextFunction) {
+    async update(req: UpdateUserRequest, res: Response, next: NextFunction) {
         // In our project: We are not allowing user to change the email id since it is used as username
         // In our project: We are not allowing admin user to change others password
 
@@ -76,4 +77,26 @@ export class UserController {
             next(err);
         }
     }
+
+     async getAll(req: Request, res: Response, next: NextFunction) {
+        const validatedQuery = matchedData(req, { onlyValidData: true });
+
+        try {
+            const [users, count] = await this.userService.getAll(
+                validatedQuery as UserQueryParams,
+            );
+
+            this.logger.info("All users have been fetched");
+            res.json({
+                currentPage: validatedQuery.currentPage as number,
+                perPage: validatedQuery.perPage as number,
+                total: count,
+                data: users,
+            });
+        } catch (err) {
+            next(err);
+        }
+    }
+
+
 }

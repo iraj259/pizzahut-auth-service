@@ -22,7 +22,6 @@ export class User {
     @Column()
     role: string;
 
-    @ManyToOne(()=> Tenant)
-    tenant: Tenant
-
+    @ManyToOne(() => Tenant)
+    tenant?: Tenant | null;
 }

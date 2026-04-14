@@ -1,9 +1,6 @@
 import "reflect-metadata"
 import express from 'express'
 import cookieParser from 'cookie-parser'
-import logger from './config/logger'
-import { HttpError } from 'http-errors'
-import type { NextFunction, Request, Response } from 'express'; // types only
 import authRouter from './routes/auth'
 import tenantRouter from './routes/tenant'
 import userRouter from './routes/user'
